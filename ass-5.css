@@ -1,0 +1,47 @@
+p{
+    color: chartreuse;
+    text-align: center;
+}
+h4{
+    color: white;
+}
+
+.box {
+    background-color: rgb(154, 8, 3);
+    width: 400px;
+    border-radius: 20px;
+    border: solid ;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.box-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    
+    
+}
+
+body {
+    font-family: sans-serif;
+    font-size: small;
+    background-color: aquamarine;
+    display: grid;
+    place-items: center;
+}
+.vertical{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    border: solid;
+    color: rgb(5, 5, 104);
+    margin: 5px;
+
+}
